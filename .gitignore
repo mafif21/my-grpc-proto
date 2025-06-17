@@ -1,0 +1,44 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go build`, `go test`, etc.
+*.log
+
+# Dependency directories (Go modules)
+vendor/
+
+# Go workspace file (if you're using `go work`)
+go.work
+go.work.sum
+
+# IDE: JetBrains GoLand
+.idea/
+
+# IDE: VSCode (optional, if some teammates use it)
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test results
+*.coverprofile
+*.test
+
+# Protobuf generated files (optional, if you want clean repo)
+*.pb.go
+*.pb.gw.go
+
+# Cache / temporary
+*.tmp
+*.swp
+*.swo
+
+# By Go tools (like delve debugger)
+__debug_bin
